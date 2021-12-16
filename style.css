@@ -1,9 +1,24 @@
 div {
-    width: 50px;
-    border: 2px solid red;
+    width: 500px;
+    text-align: right;
+    border: 3px solid red;
     
 }
 div p{
-    text-align: end;
     color: blue;
+}
+div, p{
+    text-align: center;
+    color: blue;
+
+}
+div > p{
+    text-align: center;
+    color: blue;
+
+}
+div + p{
+    text-align: center;
+    color: blue;
+
 }
